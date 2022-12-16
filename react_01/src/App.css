@@ -1,0 +1,102 @@
+/* // 引入antd样式 */
+@import '~antd/dist/antd.css';
+/* 左侧导航 */
+.sider{
+    box-shadow: 0.3125rem 0rem 0.1875rem 0.0625rem #bfc1cd !important   /*右边阴影  蓝色*/;
+}
+.sideTitle{
+    width: auto;
+    height: 1.5625rem;
+}
+/* 左侧导航栏的标题 */
+.white{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(246, 245, 242);
+    height: 4rem;
+    /* 字体颜色 */
+    color: rgb(29, 150, 215);
+    margin-bottom: 0;
+}
+/* 图标颜色 */
+.black{
+    background-color: black;
+    font-size: 1.5625rem;
+    color: aliceblue;
+}
+/* 折叠按钮居中 */
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* header */
+.header{
+    background-color: rgb(230, 233, 236);
+}
+.header_list{
+    list-style: none;
+    width: 100%;
+    height: 4rem;
+}
+.header_list>li{
+    float: left;
+}
+.search{
+    width: 50%;
+}
+/* 头像 */
+.person{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+    float: right !important;
+    background-color: #3353e6;
+    border-radius:50%;
+    overflow: hidden;
+    margin-left: 3.125rem;
+    margin-right: 0.125rem;
+}
+.person img{
+    width: auto;  
+    height: auto;  
+    max-width: 100%;  
+    max-height: 100%; 
+    position: relative;
+    top: -56%;
+}
+/* 消息 */
+.bell{
+    width: 3.8125rem;
+    height: 4rem;
+    float: right !important;
+    font-size: 1.5625rem;
+    border-left: 0.0625rem solid rgb(146, 141, 141);
+    border-right: 0.0625rem solid rgb(149, 145, 145);
+    text-align: center;
+    color:#4e5163;
+}
+/* 消息数量 */
+.point{
+    position: relative;
+    top: -2rem;
+    left: 1.875rem;
+    font-size: 0.625rem;
+    line-height: 0.9375rem;
+    text-align: center;
+    width: 0.9375rem;
+    height:0.9375rem;
+    border: 0.0625rem solid rgb(201, 33, 33);
+    border-radius: 50%;
+    background-color: red;
+    color: #e4e6ef;
+}
+/* 个人信息 */
+.info{
+    width: 6.25rem;
+    height: 4rem;
+    float: right !important;
+    font-size: 0.9375rem;
+}
