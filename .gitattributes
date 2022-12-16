@@ -1,2 +1,2 @@
-*.cs linguist-language=react
+*.js linguist-language=react
 *.ico linguist-language=react
